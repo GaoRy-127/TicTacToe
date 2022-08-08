@@ -1,2 +1,2 @@
 # TicTacToe
-Can play n*n Tic Tac Toe 
+Can play n by n Tic Tac Toe in prompt
