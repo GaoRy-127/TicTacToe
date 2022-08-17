@@ -173,17 +173,17 @@ int coin(int n)				//승, 패, 무승부 판정함수
 	
 	if (cont1==n-1 || cot1==n-1 || con1==n-1 || con_1==n-1)
 	{
-		printf("결과:X의 승리\n");
+		printf("결과: X의 승리\n");    //X win
 		cont1=cot1=con1=con_1=n+1;
 	}
 	else if(cont2==n-1 || cot2==n-1 || con2==n-1 || con_2==n-1)
 	{
-		printf("O의 승리입니다.\n");
+		printf("결과: O의 승리\n");     //O win
 		cont2=cot2=con2=con_2=n+1;
 	}
 	else if(p==n*n)
 	{
-		printf("결과: 무승부\n");
+		printf("결과: 무승부\n");    //draw
 		cont1=n+1;
 	}
 }
